@@ -1,6 +1,8 @@
 # Mục tiêu: Thành thạo cơ bản framework React, NodeJS, Mongodb
 
-### 1. Thời gian giao task mới và nghiệm thu task cũ: 19h30 mỗi ngày
+### 1. Thời gian giao task mới và nghiệm thu task cũ:
+    - Nghiệm thu vào 19h30 mỗi ngày
+    - Giao task mới vào 20h mỗi ngày ( có thể thay đổi tùy task )
 	- Trường hợp mức độ hoàn thành task dưới 50% bị coi là chưa hoàn thành
 	- Mức phạt cho trường hợp không hoàn thành task là: 30k
 
