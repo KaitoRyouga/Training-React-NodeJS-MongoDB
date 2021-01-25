@@ -20,5 +20,6 @@
 	    + Mức độ hoàn thành ( trên 50% có thể delay task sang ngày tiếp theo + lý do chưa hoàn thành, 1 task tối đa chỉ có thể delay 1 ngày )
 	    + Link dẫn tới github chưa source
 
+### 5. Mọi thắc mắc có thể liên hệ để hỏi khi không hiểu, không có chuyện không biết hay không hiểu task
 
 > To be continued ...
