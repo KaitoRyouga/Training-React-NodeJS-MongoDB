@@ -50,7 +50,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
+{
 export default function App() {
   return (
     <Router>
@@ -85,6 +85,7 @@ export default function App() {
       </div>
     </Router>
   );
+}
 }
 
 function Home() {
