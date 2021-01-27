@@ -1,4 +1,4 @@
--BACSIC REACT ROUTER-
+BACSIC REACT ROUTER
 
 Ta cần một React web app
 Bây giờ ta tạo một cái nha
@@ -43,7 +43,7 @@ Copy cái code này vào src/App.js nha!!!
 
 
 
-import React from "react";
+"import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -97,7 +97,7 @@ function About() {
 
 function Users() {
   return <h2>Users</h2>;
-}
+}"
 
 Đã xong bước 1- chúng ta qua bước 2 nhé
 
@@ -109,7 +109,7 @@ Cái ví dụ này sẽ cho ta thấy cách các định tuyến lồng vào nha
 Hiển thị bất cứ đường dẫn <ROUTER>  ở trên paths : id value
 Tiếp tục cóp cái code này và paste vào App.js
 
-import React from "react";
+"import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -196,7 +196,7 @@ function Topics() {
 function Topic() {
   let { topicId } = useParams();
   return <h3>Requested topic ID: {topicId}</h3>;
-}
+}"
 
 Kết Quả :
 
