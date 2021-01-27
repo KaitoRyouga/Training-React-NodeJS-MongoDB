@@ -43,62 +43,8 @@ Copy cái code này vào src/App.js nha!!!
 
 
 
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-{
-export default function App() {
-  return (
-    <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav>
+![image](https://user-images.githubusercontent.com/54676091/105993381-ecfae480-60d8-11eb-9a3b-fb08739847d6.png)
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/users">
-            <Users />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
-  );
-}
-}
-
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-}"
 
 Đã xong bước 1- chúng ta qua bước 2 nhé
 
@@ -110,28 +56,13 @@ Cái ví dụ này sẽ cho ta thấy cách các định tuyến lồng vào nha
 Hiển thị bất cứ đường dẫn <ROUTER>  ở trên paths : id value
 Tiếp tục cóp cái code này và paste vào App.js
 
-  useRouteMatch,
-  useParams
+![image](https://user-images.githubusercontent.com/54676091/105993597-30555300-60d9-11eb-9fbf-4c14d2200c76.png)
+![image](https://user-images.githubusercontent.com/54676091/105993677-43682300-60d9-11eb-9e05-91ac35208f60.png)
 
 
 
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Topics() {
-  let match = useRouteMatch();
 
 
-
-function Topic() {
-  let { topicId } = useParams();
-  return <h3>Requested topic ID: {topicId}</h3>;
-}
 
 Kết Quả :
 
