@@ -1,13 +1,15 @@
 -BACSIC REACT ROUTER-
+
 Ta cần một React web app
 Bây giờ ta tạo một cái nha
 Bước đầu tiên
 Tạo cài đặt create-react-app với project là demo-app
 Bằng cách dùng lệnh
 
-"npx create-react-app demo-app
-cd demo-app"
+npx create-react-app demo-app
+cd demo-app
 
+![image](https://user-images.githubusercontent.com/54676091/105971923-a350d080-60bd-11eb-998f-e85c60cb85c4.png)
  
 
 Kết quả như vầy:
