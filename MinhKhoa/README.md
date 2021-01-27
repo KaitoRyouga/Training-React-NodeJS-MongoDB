@@ -6,8 +6,6 @@ Bước đầu tiên
 Tạo cài đặt create-react-app với project là demo-app
 Bằng cách dùng lệnh
 
-npx create-react-app demo-app
-cd demo-app
 
 ![image](https://user-images.githubusercontent.com/54676091/105972104-db581380-60bd-11eb-8b49-e246c38b99c0.png)
 
@@ -196,7 +194,6 @@ Kết Quả :
 
 ![image](https://user-images.githubusercontent.com/54676091/105972380-240fcc80-60be-11eb-932d-0465128013e5.png)
 
-![qwee](https://user-images.githubusercontent.com/54676091/105972452-368a0600-60be-11eb-9716-2c0736d13d7f.jpg)
 
 
 Xong
