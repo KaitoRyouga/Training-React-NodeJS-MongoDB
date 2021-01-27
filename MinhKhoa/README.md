@@ -9,19 +9,25 @@ Bằng cách dùng lệnh
 npx create-react-app demo-app
 cd demo-app
 
-![image](https://user-images.githubusercontent.com/54676091/105971923-a350d080-60bd-11eb-998f-e85c60cb85c4.png)
- 
+![image](https://user-images.githubusercontent.com/54676091/105972104-db581380-60bd-11eb-8b49-e246c38b99c0.png)
+
+
 
 Kết quả như vầy:
  
  
-
+![image](https://user-images.githubusercontent.com/54676091/105972203-f62a8800-60bd-11eb-847c-25807ca101a4.png)
+ 
+ 
 Bước Cài Đặt:
 Bạn có thể cài đặt ở plulic npm registry mã nguồn mở hoặc những nơi khác:
 Chúng ta sẽ cần sử dụng react-router-dom trong project này
 Dùng lệnh:
 npm install react-router-dom
 chạy như hình:
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/54676091/105972260-03477700-60be-11eb-91d0-68add0b70984.png)
  
 
 Sau đó copy và dán các ví dụ sau vào src/App.js
@@ -186,6 +192,11 @@ Kết Quả :
 
   
 
+![image](https://user-images.githubusercontent.com/54676091/105972324-18240a80-60be-11eb-8b96-1190359052c7.png)
+
+![image](https://user-images.githubusercontent.com/54676091/105972380-240fcc80-60be-11eb-932d-0465128013e5.png)
+
+![qwee](https://user-images.githubusercontent.com/54676091/105972452-368a0600-60be-11eb-9716-2c0736d13d7f.jpg)
 
 
 Xong
