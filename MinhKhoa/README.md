@@ -6,6 +6,10 @@ Bước đầu tiên
 Tạo cài đặt create-react-app với project là demo-app
 Bằng cách dùng lệnh
 
+![image](https://user-images.githubusercontent.com/54676091/105972688-78b34780-60be-11eb-938e-d722dab237b0.png)
+
+
+
 
 ![image](https://user-images.githubusercontent.com/54676091/105972104-db581380-60bd-11eb-8b49-e246c38b99c0.png)
 
@@ -21,7 +25,8 @@ Bước Cài Đặt:
 Bạn có thể cài đặt ở plulic npm registry mã nguồn mở hoặc những nơi khác:
 Chúng ta sẽ cần sử dụng react-router-dom trong project này
 Dùng lệnh:
-npm install react-router-dom
+![image](https://user-images.githubusercontent.com/54676091/105972870-a9937c80-60be-11eb-8f9b-0d7eea4fc007.png)
+
 chạy như hình:
  
  
@@ -35,6 +40,9 @@ Trong ví dụ này, chúng ta có 3 trang là : a home page, an about page, và
 Có nghĩ chúng ta đang làm 3 trang này..sao cho khi di chuyển con trỏ click đến các trang này chúng sẽ hiển thị ra nội dung trang của chúng
 Lưu ý: ở trong code ví dụ này còn làm cho người dùng có thể dùng bàn phím để thao tác
 Copy cái code này vào src/App.js nha!!!
+
+
+
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -92,6 +100,10 @@ function Users() {
 }
 
 Đã xong bước 1- chúng ta qua bước 2 nhé
+
+
+
+
 BƯỚC 2:  ĐỊNH TUYẾN LỒNG VÀO NHAU
 Cái ví dụ này sẽ cho ta thấy cách các định tuyến lồng vào nhau để hoạt động, The route /topics loads the Topics component ,
 Hiển thị bất cứ đường dẫn <ROUTER>  ở trên paths : id value
