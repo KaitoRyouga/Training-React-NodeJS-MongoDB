@@ -3,7 +3,8 @@ import './App.css';
 import ReactDOM from "react-dom";
 //su dung history dr chuyen trang
 import { useHistory } from "react-router-dom";
-
+import {Home} from "/component/Home";
+import {About} from "/component/About";
 /////////////
 import {
   BrowserRouter as Router,
@@ -31,7 +32,6 @@ ReactDOM.render(
   </Router>,
   node
 );
-
 /////
 function App() {
   return (
@@ -42,13 +42,13 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/Home">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/About">About</Link>
             </li>
             <li>
-              <Link to="/users">Users</Link>
+              <Link to="/Users">Users</Link>
             </li>
           </ul>
         </nav>
@@ -56,13 +56,13 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
+          <Route path="/About">
             <About />
           </Route>
-          <Route path="/users">
+          <Route path="/Users">
             <Users />
           </Route>
-          <Route path="/">
+          <Route path="/Home">
             <Home />
           </Route>
         </Switch>
